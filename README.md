@@ -1,5 +1,8 @@
-# VÉRKŐ
+# CARO DEORUM
 
+*Salt and Iron · Só és vas*
+
+> Latin: **„az istenek húsa”** — a kő birodalmi hivatalos neve. A vadászok „vérkőnek” hívják.
 > 2D izometrikus, fekvő képernyős akció-RPG mobilra (Godot 4.7).
 > Monster hunter × Hades-látvány × cowboy aranykor × római birodalom × steampunk horror.
 
@@ -14,13 +17,16 @@ A fiúnak kő nélkül van varázsereje — évszázadok óta az első —, **az
 
 | Mappa | Tartalom |
 |---|---|
-| `docs/` | **KONCEPCIO.md** — világ, harci rendszer, HUD, scope · **NEVEK_ES_SZORNYEK.md** — nevek, helyszínek, bestiárium, tutorial |
+| `docs/` | **TITLE.md** — a cím és a logó · **KONCEPCIO.md** — világ, harci rendszer, HUD, scope · **NEVEK_ES_SZORNYEK.md** — nevek, helyszínek, bestiárium, tutorial |
 | `data/` | **quests.csv** — a 88 küldetés (régió, küldetésadó, szörny, ölésmód, felkészülés, jutalom, szint) |
 | `art/` | 27 koncepciós kép: vadászok, szörnyek, városok, izometrikus játéknézet, bossok |
-| `hud/` | Fekvő HUD-terv, zöld filter demó, színpaletta, régió-térkép |
+| `hud/` | Fekvő HUD-terv, **logó-változatok**, névjelölt-lap, zöld filter demó, színpaletta, régió-térkép |
 | `godot/` | **green_filter.gdshader** — a zöldes „halloweeni" színfilter |
 | `galeria/` | **koncepcio_galeria.html** — egy lapos, önmagába zárt galéria (duplán kattintva megnyílik) |
 | `tools/` | Python szkriptek, amik a képeket/dokumentumokat generálták (újrafuttathatók) |
+
+**A címről:** `docs/TITLE.md` — miért ez a név, a nyelvi réteg (caro deorum / istenhús / vérkő),
+a logó-irányok és a platform-nevek.
 
 **Új chatben folytatod?** Olvasd el a **[`CONTINUE_HERE.md`](CONTINUE_HERE.md)** fájlt — benne van a
 teljes kánon, az összes meghozott döntés, a nyitott kérdések, és egy **bemásolható üzenet** is.

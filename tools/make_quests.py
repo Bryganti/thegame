@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Vérkő — küldetés-adatbázis (4 régió, 20+ küldetés/régió) -> quests.csv
+"""CARO DEORUM — küldetés-adatbázis (4 régió, 20+ küldetés/régió) -> quests.csv
 A CSV közvetlenül betölthető Godotba (FileAccess.get_csv_line vagy Resource-táblába)."""
 
 # --- szörny-profilok: ölésmód, felkészülés, tipikus jutalom -------------------

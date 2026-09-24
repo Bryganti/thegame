@@ -1,5 +1,9 @@
 # Nevek, helyszínek és a szörny-küldetések rendszere
 
+**A JÁTÉK CÍME: CARO DEORUM** (latin: „az istenek húsa") — a kő birodalmi hivatalos neve.
+A vadászok „vérkőnek" hívják — a játék nagy részében azt sem tudják, hogy ugyanazt jelenti.
+Részletek: `TITLE.md`.
+
 *Korszak: a cowboy aranykor (1800-as évek vége) — Római Birodalom, gőz-technológia.
 A kő (égkő) használata **főbenjáró bűn** a Vaskonzílium óta. Autók nincsenek.*
 

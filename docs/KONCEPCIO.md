@@ -1,5 +1,6 @@
-# VÉRKŐ — Koncepció és tervezési jegyzet
+# CARO DEORUM — Koncepció és tervezési jegyzet
 
+**Cím:** **CARO DEORUM** (latin: „az istenek húsa”) — a kő birodalmi hivatalos neve; alcím: *Só és vas*. Részletek: `TITLE.md`
 **Korszak:** alternatív **cowboy aranykor** (1800-as évek vége) — a Római Birodalom uralma alatt, gőz-technológiával (steampunk). Autók még nincsenek: **ló, gőzvasút, gőzhajó**.
 **Műfaj:** 2D **izometrikus**, **fekvő képernyős** akció-RPG (monster hunter), mobilra
 **Hangulati képlet:** Hades vizuális nyelve × The Witcher szerződéses szörnyvadászata × RDR2 vadnyugat × római birodalom × steampunk horror
@@ -45,6 +46,18 @@
 > **A játékos soha nem használ követ.** Nincs korrupció-mérő, nincs tiltott erő. Amije van:
 > **potion, fegyverek és tudás** (a bestiárium és a felkészülés). A mágia a világban van jelen —
 > az ellenségekben, a szörnyekben és a rejtélyekben —, nem a játékos kezében.
+
+#### A kő három neve — és a játék címe
+
+| Ki mondja | Hogy hívja | Megjegyzés |
+|---|---|---|
+| **A Birodalom (hivatalos latin)** | ***caro deorum*** | „az istenek húsa" — a törvény és a Vaskonzílium iratainak nyelve. **Ez a játék címe.** |
+| **A katonák (szleng)** | ***istenhús*** | a latin tükörfordítása; a légiósok lerövidítették |
+| **A vadászok (szleng)** | ***vérkő*** | ők nem tudnak latinul; arról nevezték el, amit tesz |
+
+> **A csattanó:** Vesper (és a játékos) végig azt hiszi, hogy a „vérkő" a vadászok szava, a
+> „Caro Deorum" pedig egy hely a térképen. **A IV. felvonásban derül ki, hogy ugyanaz.** A cím
+> maga a rejtély — erről szól a `TITLE.md`.
 
 ### 2.3 Steampunk — a tudomány mint birodalmi vallás
 

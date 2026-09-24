@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Vérkő — koncepció-galéria (cowboy aranykor + Róma + steampunk, izometrikus)."""
+"""CARO DEORUM — koncepció-galéria (cowboy aranykor + Róma + steampunk, izometrikus)."""
 import base64, io
 from PIL import Image
 
 ITEMS = [
+    ("caro_deorum_logo.png", "CARO DEORUM — a cím és a logó", "A fő irány: **széles betűközű szerif** — „hivatalos birodalmi pecsét”. Mellette a zöld izzású (trailer/horror) és a fémnyomott western változat, plusz **méretpróba 64 px-ig**."),
+    ("nevek_mockup.png", "A névválasztás — a jelöltek", "A döntés lapja: **Caro Deorum**, *Salt and Iron* és *Hollowmier* összehasonlítva. A „Vérkő” azért esett ki, mert **David Gemmell regényének magyar címe** ugyanebben a műfajban."),
     ("regio_terkep.png", "A világ térképe — 4 régió, 88 küldetés", "A régiók között **csak a Legio Rail gőzvonatával** lehet közlekedni: jegy kell, és nappal indulnak. Régióként **22 küldetés** (5 történet + 8 tábla + 4 vizsgálat + 3 elit + 2 karakter) — négy régióban 88."),
     ("27_legio_rail.png", "A Legio Rail", "A gőzvasút-állomás: western fa-depó + márvány római oszlopok, sárgaréz szelepek, zöld üveglámpások. **Ez a régiók közötti egyetlen közlekedés** — és a IV. felvonás csattanója: a vonalat Blackwood építette, hogy a köveket szállítsa."),
     ("15_hollowmier.png", "Hollowmier", "A gyarmat fővárosa: western saloonok, márvány római fórum, gőz-akvadukt szelepekkel, Legio Rail, sárgaréz és korom — a háttérben a tiltott kráter zölden izzik."),
@@ -125,7 +127,7 @@ HTML = f"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vérkő — koncepciós galéria</title>
+<title>Caro Deorum — koncepciós galéria</title>
 <style>
   :root {{
     --ink:#eee2c8; --dim:#eee2c8a8; --bg:#0e0b11; --panel:#17131c;
@@ -187,7 +189,7 @@ HTML = f"""<!DOCTYPE html>
 <body>
 <header>
   <div class="kicker">Cowboy aranykor · Római birodalom · Steampunk · Izometrikus · Fekvő · Mobil</div>
-  <h1>VÉR<span>KŐ</span></h1>
+  <h1>CARO <span>DEORUM</span></h1>
   <p class="logline">A Római Birodalom uralta alternatív vadnyugaton — ahol a mágiát évszázadokkal ezelőtt
   betiltották, és az emberiség a gőzbe kapaszkodik — <b>Vesper Crane</b> és három vadásztársa megbízást kap
   egy birodalmi kémtől: találják meg a fiút, <b>Elias Weirt</b>, és adják át a megbízónak.
@@ -195,13 +197,33 @@ HTML = f"""<!DOCTYPE html>
   és aki négyszáz éve minden szörnyet megalkotott.</b></p>
   <ul class="meta">
     <li>Fekvő képernyő</li><li>2D izometrikus akció-RPG</li><li>Minden szörnyet másképp kell megölni</li>
-    <li>Vándorló tábortűz</li><li>A kő tiltott — a játékos sem használhatja</li><li>Főhős: Vesper Crane</li>
+    <li>Vándorló tábortűz</li><li>A kő tiltott — a játékos sem használhatja</li><li>Főhős: Vesper Crane</li><li>Alcím: Só és vas</li>
   </ul>
 </header>
 
 <main>
   <div class="grid">{cards}
   </div>
+
+  <section>
+    <h2>A cím — Caro Deorum</h2>
+    <div class="rule"><b>Caro Deorum</b> (latin: „az istenek húsa”) — a kő birodalmi hivatalos neve,
+      és a 4. régió kráterének neve. <b>A csattanó:</b> a vadászok „vérkőnek” hívják, és a játék nagy
+      részében senki sem tudja, hogy a kettő ugyanaz — a IV. felvonásban derül ki. A cím maga a rejtély.</div>
+    <div class="cols">
+      <div class="box"><h4>Három szó, ugyanarra</h4><ul>
+        <li><b>caro deorum</b> — birodalmi latin, a törvény nyelve</li>
+        <li><b>istenhús</b> — a katonák szlengje (a latin tükörfordítása)</li>
+        <li><b>vérkő</b> — a vadászok szlengje; ők nem tudnak latinul</li>
+      </ul></div>
+      <div class="box"><h4>Alcím és tagline</h4><p><b>Salt and Iron</b> / <b>Só és vas</b> — a második
+        helyezett jelölt alcímként. Tagline: <i>„A világ a gőzben hisz. A vadászok tudják, mi működik
+        igazán.”</i></p></div>
+      <div class="box"><h4>Logó</h4><p>Fő irány: <b>széles betűközű szerif</b>, plusz zöld izzású és
+        fémnyomott western változat. Két méret kell: részletes (marketing) és egyszerű (ikon, 64 px).
+        Részletek: <code>TITLE.md</code>.</p></div>
+    </div>
+  </section>
 
   <section>
     <h2>A világ rendje — a tiltás</h2>
@@ -381,7 +403,7 @@ HTML = f"""<!DOCTYPE html>
 </main>
 
 <footer>
-  Vérkő — koncepciós jegyzet. A képek hangulati referencia-koncepciók (AI-generált vázlatok), nem végleges
+  Caro Deorum — koncepciós jegyzet. A képek hangulati referencia-koncepciók (AI-generált vázlatok), nem végleges
   játék-assetek. Részletes jegyzet: <code>KONCEPCIO.md</code> · <code>NEVEK_ES_SZORNYEK.md</code> ·
   <code>godot/green_filter.gdshader</code> · HUD: <code>kontroll_es_hud_fekvo.png</code>
 </footer>

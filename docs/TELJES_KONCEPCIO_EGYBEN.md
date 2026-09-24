@@ -1,12 +1,16 @@
-# VÉRKŐ — teljes koncepció egy fájlban
+# CARO DEORUM — teljes koncepció egy fájlban
 
+> Latin: „az istenek húsa” — a kő birodalmi hivatalos neve. A vadászok „vérkőnek” hívják.
 > Ez a fájl a repó dokumentumainak összefűzött változata, hogy egyetlen csatolmányként is átadható legyen.
 
 
 <!-- ============ README.md ============ -->
 
-# VÉRKŐ
+# CARO DEORUM
 
+*Salt and Iron · Só és vas*
+
+> Latin: **„az istenek húsa”** — a kő birodalmi hivatalos neve. A vadászok „vérkőnek” hívják.
 > 2D izometrikus, fekvő képernyős akció-RPG mobilra (Godot 4.7).
 > Monster hunter × Hades-látvány × cowboy aranykor × római birodalom × steampunk horror.
 
@@ -21,13 +25,16 @@ A fiúnak kő nélkül van varázsereje — évszázadok óta az első —, **az
 
 | Mappa | Tartalom |
 |---|---|
-| `docs/` | **KONCEPCIO.md** — világ, harci rendszer, HUD, scope · **NEVEK_ES_SZORNYEK.md** — nevek, helyszínek, bestiárium, tutorial |
+| `docs/` | **TITLE.md** — a cím és a logó · **KONCEPCIO.md** — világ, harci rendszer, HUD, scope · **NEVEK_ES_SZORNYEK.md** — nevek, helyszínek, bestiárium, tutorial |
 | `data/` | **quests.csv** — a 88 küldetés (régió, küldetésadó, szörny, ölésmód, felkészülés, jutalom, szint) |
 | `art/` | 27 koncepciós kép: vadászok, szörnyek, városok, izometrikus játéknézet, bossok |
-| `hud/` | Fekvő HUD-terv, zöld filter demó, színpaletta, régió-térkép |
+| `hud/` | Fekvő HUD-terv, **logó-változatok**, névjelölt-lap, zöld filter demó, színpaletta, régió-térkép |
 | `godot/` | **green_filter.gdshader** — a zöldes „halloweeni" színfilter |
 | `galeria/` | **koncepcio_galeria.html** — egy lapos, önmagába zárt galéria (duplán kattintva megnyílik) |
 | `tools/` | Python szkriptek, amik a képeket/dokumentumokat generálták (újrafuttathatók) |
+
+**A címről:** `docs/TITLE.md` — miért ez a név, a nyelvi réteg (caro deorum / istenhús / vérkő),
+a logó-irányok és a platform-nevek.
 
 **Új chatben folytatod?** Olvasd el a **[`CONTINUE_HERE.md`](CONTINUE_HERE.md)** fájlt — benne van a
 teljes kánon, az összes meghozott döntés, a nyitott kérdések, és egy **bemásolható üzenet** is.
@@ -76,7 +83,7 @@ A régiók között **csak a Legio Rail gőzvonatával** lehet közlekedni (jegy
 
 <!-- ============ CONTINUE_HERE.md ============ -->
 
-# FOLYTATÁS — Vérkő projekt (handoff)
+# FOLYTATÁS — CARO DEORUM projekt (handoff)
 
 > **Ezt a fájlt használd, ha új chat ablakban folytatod.** A fájl alján van egy
 > **bemásolható üzenet** — azt illeszd be az új chatbe, és azonnal felveszi a fonalat.
@@ -87,7 +94,12 @@ Utolsó frissítés: 2026-09-24
 
 ## Mi ez a projekt?
 
-**Vérkő** — 2D **izometrikus**, **fekvő képernyős** akció-RPG **mobilra**, Godot 4.7-ben.
+**A játék címe: CARO DEORUM** — „az istenek húsa”, a kő birodalmi hivatalos neve.
+A vadászok „vérkőnek” hívják, és a játék nagy részében senki sem tudja, hogy a kettő ugyanaz —
+ez a IV. felvonás csattanója. (A „Vérkő” munkanév volt, azért esett ki, mert David Gemmell
+regényének magyar címe ugyanebben a műfajban.) Részletek: `docs/TITLE.md`.
+
+**CARO DEORUM** (latin: „az istenek húsa”; alcím: *Só és vas*) — 2D **izometrikus**, **fekvő képernyős** akció-RPG **mobilra**, Godot 4.7-ben.
 Műfaj: monster hunter (Witcher-stílusú szerződések) × Hades-látvány × vadnyugat × római birodalom × steampunk horror.
 
 **Egy mondatban:** A Római Birodalom uralta alternatív vadnyugaton — ahol a mágiát évszázadokkal
@@ -208,10 +220,12 @@ időpont × szint), csak a **20 történet-küldetést** kell kézzel megírni. 
 ```
 README.md                 – projekt-áttekintés
 CONTINUE_HERE.md          – ez a fájl (folytatáshoz)
+docs/TITLE.md             – a cím, a nyelvi réteg és a logó-irányok
 docs/KONCEPCIO.md         – teljes tervezési jegyzet (világ, harci, HUD, scope)
 docs/NEVEK_ES_SZORNYEK.md – nevek, helyszínek, bestiárium, tutorial
 data/quests.csv           – 88 küldetés: régió, adó, szörny, ölésmód, felkészülés, jutalom, szint
 godot/green_filter.gdshader – a zöldes filter (CanvasLayer + ColorRect)
+hud/caro_deorum_logo.jpg  – logó-változatok (szerif / zöld izzás / fémnyomott western)
 galeria/koncepcio_galeria.html – egy lapos, önmagába zárt koncepció-galéria
 art/*.jpg                 – 27 koncepciós kép (vadászok, szörnyek, városok, izometrikus nézet)
 hud/*.jpg                 – fekvő HUD-terv, zöld filter demó, színpaletta, régió-térkép
@@ -244,7 +258,7 @@ tools/*.py                – a képek/dokumentumok generátor-szkriptjei
 
 ## BEMÁSOLHATÓ ÜZENET EGY ÚJ CHATHEZ
 
-> Szia! A **Vérkő** nevű játékon dolgozunk — 2D izometrikus, fekvő képernyős mobil akció-RPG
+> Szia! A **Caro Deorum** nevű játékon dolgozunk — 2D izometrikus, fekvő képernyős mobil akció-RPG
 > Godot 4.7-ben, monster hunter (Witcher-stílusú szerződésekkel), Hades-látvánnyal, cowboy
 > aranykorban, egy alternatív időkben, ahol **a Római Birodalom uralja Amerikát**, és a mágiát
 > (az „égkövet") évszázadokkal ezelőtt betiltották, ezért a világ steampunk tudományra épül.
@@ -265,10 +279,122 @@ tools/*.py                – a képek/dokumentumok generátor-szkriptjei
 > folytassuk. A válaszokat magyarul, közvetlenül, konkrét tippekkel kérem.
 
 
+<!-- ============ docs/TITLE.md ============ -->
+
+# CARO DEORUM — a cím
+
+> **Caro Deorum** (latin, ejtsd: *„káro deórum"*) — jelentése: **„az istenek húsa"**.
+> Ez a kő birodalmi hivatalos neve a játék világában.
+
+---
+
+## 1. A nyelvi réteg — három szó, ugyanarra a dologra
+
+| Ki mondja | Hogy hívja | Mit jelent |
+|---|---|---|
+| **A Birodalom (hivatalos, latin)** | ***caro deorum*** | a törvény nyelvén, a Vaskonzílium irataiban: „istenek húsa" |
+| **A katonák (szleng)** | ***istenhús*** | a latin tükörfordítása — a légiósok lerövidítették a hivatalos szót |
+| **A vadászok (szleng)** | ***vérkő*** | ők nem tudnak latinul; a kő színéről és arról nevezték el, amit tesz |
+
+**És itt a csattanó, amit a cím ad a játéknak:** Vesper (és a játékos) végig azt hiszi, hogy a
+„vérkő" és a „caro deorum" két különböző dolog — az egyik a vadászok szava, a másik egy hely a
+térképen. **Csak a IV. felvonásban derül ki, hogy ugyanaz.** Ez a legjobb fajta cím:
+a név maga a rejtély, és a végén a játékos fejében összeáll.
+
+---
+
+## 2. Miért ez a cím
+
+1. **A világot adja el, nem egy elemet.** A latin cím azonnal elmondja: itt egy birodalom van,
+   és valami régi, hivatalos, veszélyes dologról szól.
+2. **A cím a lore része** — nem marketing-felirat a dobozon, hanem szó, amit a szereplők kimondanak.
+3. **Logó-barát:** két rövid szó, szépen működik szerif betűkkel és széles betűközzel.
+4. **Ütközésmentes:** nincs ilyen nevű játék, könyv vagy zenekar (a „Caro" előfordul a
+   *The World Well: Blood of Caro* vizuális regényben, de az más cím és más műfaj).
+
+**Kerülendő marad:** *Vérkő* (David Gemmell regényének magyar címe, ugyanebben a western-fantasy
+műfajban — ezért nem lett a játék címe), *Godflesh* (zenekar), *Cold Iron* (létező VR-játék).
+
+---
+
+## 3. Nyelvi változatok és alcím
+
+A latin cím **minden nyelven latinul marad** — mint a *Hades*, a *Bloodborne* vagy a *Disco Elysium*.
+A magyarítás nem szükséges, mert a szó a játék világában is latin (a Birodalom nyelve).
+
+**Javasolt alcím** (a második helyezett jelölt, most alcímként — így nem vész el):
+
+| Piac | Cím |
+|---|---|
+| Nemzetközi / Steam | **CARO DEORUM** — *Salt and Iron* |
+| Magyar | **CARO DEORUM** — *Só és vas* |
+
+**Tagline (a Key artra / trailerbe):**
+> „A világ a gőzben hisz. A vadászok tudják, mi működik igazán."
+
+---
+
+## 4. Logó-irányok
+
+Három tipográfiai irány (lásd: `hud/caro_deorum_logo.jpg`):
+
+| Irány | Betű | Hangulat | Mikor jó |
+|---|---|---|---|
+| **A — Szerif, széles betűköz** | klasszikus serif, csupa nagybetű, ritkított | birodalmi, hivatalos, régies | **ez a fő irány** — ez a „hivatalos birodalmi pecsét" |
+| **B — Zöld izzás** | ugyanaz, de a betűk alján zöld fény | meteor, tiltott mágia, horror | horror-marketinghez, trailerhez |
+| **C — Fémnyomott western** | vastag sans, enyhe kopás, sárgaréz | sárgaréz, gőz, plakát | a borítóhoz / Steam capsule-höz |
+
+**Tipográfiai figyelmeztetés:** a *Trajan* betűt (és a klónjait) kerüld — az minden második
+filmplakát betűje (Gladiátor, Trónok harca, Star Wars-utánozók). Helyette **modern serif**
+(Cormorant, EB Garamond, Playfair Display) vagy egyedi rajzolt betű.
+
+**Amit a logó tartalmazzon (ötletek):**
+- a két „O" egyike lehet **kráter** (gyűrű, közepén zöld mag) — vagy a „D" szárai foghatnak **sast
+  tartó oszlopot**
+- a **SPQR-sáv** vagy egy **varrt posztójelvény** kerülhet a cím alá (ez a világ jelvénye)
+- a **„O"** mint sárgaréz nyomásmérő-óra (a steampunk réteg)
+
+**Méretpróba:** a logónak **64 px szélességig** olvashatónak kell lennie (Steam könyvtár, mobilos
+ikon) — a széles betűköz és a vékony serif ilyenkor elveszik, ezért kell **két változat**:
+részletes (marketing) és egyszerű (ikon).
+
+---
+
+## 5. Platform-nevek és elérhetőségek
+
+| Platform | Név |
+|---|---|
+| Steam / itch.io | `Caro Deorum` |
+| Android (Google Play) | `Caro Deorum` |
+| Bundle / csomagnév | `caro-deorum` |
+| Hashtag | `#CaroDeorum` |
+| Fájlnév / projektmappa | `caro-deorum` (kötőjellel, kisbetűvel) |
+
+**Domain-javaslatok:** `carodeorum.com` (fő), tartalék: `carodeorumgame.com`, `carodeorum.hu`.
+*Érdemes minél előbb lefoglalni, még a bejelentés előtt — a rövid latin név könnyen elkel.*
+
+---
+
+## 6. Ahol a cím megjelenik a játékban
+
+- **A 4. régió helyszíne:** *Caro Deorum* — a legfrissebb kráter és a zöld szentély (**a végső helyszín**).
+- **A katonák káromkodása:** „a *caro* vigyen el" — így lesz a címből élő szó.
+- **A Vaskonzílium iratai:** *Edictum Lapidis* — a tiltó rendelet, benne a kő hivatalos nevével.
+- **A csattanó:** a „vérkő" és a „caro deorum" ugyanaz — Vesper a IV. felvonásban jön rá.
+
+---
+
+## 7. A projekt neve a fejlesztés alatt
+
+A repó és a munkamappa maradhat **`thegame`**, de ha átnevezed, javasolt: **`caro-deorum`**.
+(A repó átnevezésével minden GitHub-link átáll, a régi URL átirányít — nyugodtan megtehető.)
+
+
 <!-- ============ docs/KONCEPCIO.md ============ -->
 
-# VÉRKŐ — Koncepció és tervezési jegyzet
+# CARO DEORUM — Koncepció és tervezési jegyzet
 
+**Cím:** **CARO DEORUM** (latin: „az istenek húsa”) — a kő birodalmi hivatalos neve; alcím: *Só és vas*. Részletek: `TITLE.md`
 **Korszak:** alternatív **cowboy aranykor** (1800-as évek vége) — a Római Birodalom uralma alatt, gőz-technológiával (steampunk). Autók még nincsenek: **ló, gőzvasút, gőzhajó**.
 **Műfaj:** 2D **izometrikus**, **fekvő képernyős** akció-RPG (monster hunter), mobilra
 **Hangulati képlet:** Hades vizuális nyelve × The Witcher szerződéses szörnyvadászata × RDR2 vadnyugat × római birodalom × steampunk horror
@@ -314,6 +440,18 @@ tools/*.py                – a képek/dokumentumok generátor-szkriptjei
 > **A játékos soha nem használ követ.** Nincs korrupció-mérő, nincs tiltott erő. Amije van:
 > **potion, fegyverek és tudás** (a bestiárium és a felkészülés). A mágia a világban van jelen —
 > az ellenségekben, a szörnyekben és a rejtélyekben —, nem a játékos kezében.
+
+#### A kő három neve — és a játék címe
+
+| Ki mondja | Hogy hívja | Megjegyzés |
+|---|---|---|
+| **A Birodalom (hivatalos latin)** | ***caro deorum*** | „az istenek húsa" — a törvény és a Vaskonzílium iratainak nyelve. **Ez a játék címe.** |
+| **A katonák (szleng)** | ***istenhús*** | a latin tükörfordítása; a légiósok lerövidítették |
+| **A vadászok (szleng)** | ***vérkő*** | ők nem tudnak latinul; arról nevezték el, amit tesz |
+
+> **A csattanó:** Vesper (és a játékos) végig azt hiszi, hogy a „vérkő" a vadászok szava, a
+> „Caro Deorum" pedig egy hely a térképen. **A IV. felvonásban derül ki, hogy ugyanaz.** A cím
+> maga a rejtély — erről szól a `TITLE.md`.
 
 ### 2.3 Steampunk — a tudomány mint birodalmi vallás
 
@@ -550,6 +688,10 @@ A római jelek **felvarrt, hímzett jelvények** (sas + SPQR), nem ókori pánc�
 <!-- ============ docs/NEVEK_ES_SZORNYEK.md ============ -->
 
 # Nevek, helyszínek és a szörny-küldetések rendszere
+
+**A JÁTÉK CÍME: CARO DEORUM** (latin: „az istenek húsa") — a kő birodalmi hivatalos neve.
+A vadászok „vérkőnek" hívják — a játék nagy részében azt sem tudják, hogy ugyanazt jelenti.
+Részletek: `TITLE.md`.
 
 *Korszak: a cowboy aranykor (1800-as évek vége) — Római Birodalom, gőz-technológia.
 A kő (égkő) használata **főbenjáró bűn** a Vaskonzílium óta. Autók nincsenek.*

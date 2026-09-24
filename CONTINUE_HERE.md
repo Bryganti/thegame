@@ -1,4 +1,4 @@
-# FOLYTATÁS — Vérkő projekt (handoff)
+# FOLYTATÁS — CARO DEORUM projekt (handoff)
 
 > **Ezt a fájlt használd, ha új chat ablakban folytatod.** A fájl alján van egy
 > **bemásolható üzenet** — azt illeszd be az új chatbe, és azonnal felveszi a fonalat.
@@ -9,7 +9,12 @@ Utolsó frissítés: 2026-09-24
 
 ## Mi ez a projekt?
 
-**Vérkő** — 2D **izometrikus**, **fekvő képernyős** akció-RPG **mobilra**, Godot 4.7-ben.
+**A játék címe: CARO DEORUM** — „az istenek húsa”, a kő birodalmi hivatalos neve.
+A vadászok „vérkőnek” hívják, és a játék nagy részében senki sem tudja, hogy a kettő ugyanaz —
+ez a IV. felvonás csattanója. (A „Vérkő” munkanév volt, azért esett ki, mert David Gemmell
+regényének magyar címe ugyanebben a műfajban.) Részletek: `docs/TITLE.md`.
+
+**CARO DEORUM** (latin: „az istenek húsa”; alcím: *Só és vas*) — 2D **izometrikus**, **fekvő képernyős** akció-RPG **mobilra**, Godot 4.7-ben.
 Műfaj: monster hunter (Witcher-stílusú szerződések) × Hades-látvány × vadnyugat × római birodalom × steampunk horror.
 
 **Egy mondatban:** A Római Birodalom uralta alternatív vadnyugaton — ahol a mágiát évszázadokkal
@@ -130,10 +135,12 @@ időpont × szint), csak a **20 történet-küldetést** kell kézzel megírni. 
 ```
 README.md                 – projekt-áttekintés
 CONTINUE_HERE.md          – ez a fájl (folytatáshoz)
+docs/TITLE.md             – a cím, a nyelvi réteg és a logó-irányok
 docs/KONCEPCIO.md         – teljes tervezési jegyzet (világ, harci, HUD, scope)
 docs/NEVEK_ES_SZORNYEK.md – nevek, helyszínek, bestiárium, tutorial
 data/quests.csv           – 88 küldetés: régió, adó, szörny, ölésmód, felkészülés, jutalom, szint
 godot/green_filter.gdshader – a zöldes filter (CanvasLayer + ColorRect)
+hud/caro_deorum_logo.jpg  – logó-változatok (szerif / zöld izzás / fémnyomott western)
 galeria/koncepcio_galeria.html – egy lapos, önmagába zárt koncepció-galéria
 art/*.jpg                 – 27 koncepciós kép (vadászok, szörnyek, városok, izometrikus nézet)
 hud/*.jpg                 – fekvő HUD-terv, zöld filter demó, színpaletta, régió-térkép
@@ -166,7 +173,7 @@ tools/*.py                – a képek/dokumentumok generátor-szkriptjei
 
 ## BEMÁSOLHATÓ ÜZENET EGY ÚJ CHATHEZ
 
-> Szia! A **Vérkő** nevű játékon dolgozunk — 2D izometrikus, fekvő képernyős mobil akció-RPG
+> Szia! A **Caro Deorum** nevű játékon dolgozunk — 2D izometrikus, fekvő képernyős mobil akció-RPG
 > Godot 4.7-ben, monster hunter (Witcher-stílusú szerződésekkel), Hades-látvánnyal, cowboy
 > aranykorban, egy alternatív időkben, ahol **a Római Birodalom uralja Amerikát**, és a mágiát
 > (az „égkövet") évszázadokkal ezelőtt betiltották, ezért a világ steampunk tudományra épül.
